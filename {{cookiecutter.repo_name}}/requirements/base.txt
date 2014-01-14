@@ -1,0 +1,13 @@
+Django==1.5.4
+
+# Django-CMS
+django-cms==2.4.2
+django-classy-tags==0.4
+django-mptt==0.5.2
+django-sekizai==0.7
+html5lib==1.0b3
+
+django-crispy-forms==1.4.0
+South==0.8.2
+Pillow==2.1.0
+django-allauth==0.13.0

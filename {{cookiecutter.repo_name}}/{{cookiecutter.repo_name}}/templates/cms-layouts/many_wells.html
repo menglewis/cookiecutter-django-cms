@@ -1,0 +1,29 @@
+{% raw %}{% extends "base.html" %}
+{% load cms_tags sekizai_tags %}
+
+{% block title %}
+{% page_attribute "page_title" %}
+{% endblock title %}
+
+{% block content %}
+        <div class="row">
+            <div class="col-xs-8">
+                {% placeholder top_left inherit %}
+            </div>
+            <div class="col-xs-4">
+                {% placeholder top_right inherit %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                {% placeholder bottom_left inherit %}
+            </div>
+            <div class="col-xs-4">
+                {% placeholder bottom_center inherit %}
+            </div>
+            <div class="col-xs-4">
+                {% placeholder bottom_right inherit %}
+            </div>
+        </div>
+
+{% endblock content %}{% endraw %}
